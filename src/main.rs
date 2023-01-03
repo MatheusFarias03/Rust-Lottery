@@ -129,6 +129,7 @@ fn chosen_numbers(qtd: u8) -> Vec<u16> {
 
         println!("Your chosen numbers are:");
         print_vector(&mut chosen_vec);
+        println!("\nYou chose : {} numbers.\n", i);
 
         if got_error == true {
             println!("{}", error_msg);
