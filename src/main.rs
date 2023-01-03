@@ -58,7 +58,20 @@ fn number_quantity() -> u8 {
         if got_error == true {
             println!("{}", error_msg);
         }
-        println!("Select the amount of numbers you want to chose (between 6 and 15) : ");
+
+        println!("6 - cost : R$ 4.50 - prob. : 1 in 50.063.860 ;");
+        println!("7 - cost R$ 31.50 - prob. : 1 in 7.151.980 ;");
+        println!("8 - cost R$ 126.00 - prob. : 1 in 1.787.995 ;");
+        println!("9 - cost R$ 378.00 - prob. : 1 in 595.998 ;");
+        println!("10 - cost R$ 945.00 - prob. : 238.399 ;");
+        println!("11 - cost R$ 2,079.00 - prob. : 108.363 ;");
+        println!("12 - cost R$ 4,158.00 - prob. : 54.182 ;");
+        println!("13 - cost R$  7,722.00 - prob. : 29.175 ;");
+        println!("14 - cost R$ 13,513.50 - prob. : 16.671 ;");
+        println!("15 - cost R$ 22,522.50 - prob. : 10.003 .\n");
+
+        println!("Select the amount of numbers you want to chose (between 6 and 15) : \n");
+        
 
         io::stdin()
             .read_line(&mut input)
